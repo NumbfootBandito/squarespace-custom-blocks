@@ -1,0 +1,45 @@
+{###############################################################################
+
+    SQUARESPACE SYSTEM BLOCK TEMPLATE - SOCIAL LINKS
+
+    This file, in conjunction with its `.conf` file, allows us to overwrite
+    Squarespace's own system block template.
+
+    OBJECT MODEL
+    =>
+
+        accounts:               array
+
+            ACCOUNT MODEL =>
+            addedOn:            number
+            iconEnabled:        boolean
+            iconUrl:            string
+            profileUrl:         string
+            screenname:         string
+            serviceId:          number
+            serviceName:        string
+            userId:             string
+            userName:           string
+            collectionId:       string
+            metaData:           object
+
+        iconAlignment:          string
+        iconColor:              string
+        iconSize:               string
+        iconStyle:              string
+        type:                   number
+
+###############################################################################}
+
+
+
+
+
+
+{###############################################################################
+
+<script>
+    console.log( "socialaccountlinks-v2", {@|json-pretty} );
+</script>
+
+###############################################################################}

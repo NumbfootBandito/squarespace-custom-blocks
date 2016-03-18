@@ -1,0 +1,30 @@
+{###############################################################################
+
+    SQUARESPACE SYSTEM BLOCK TEMPLATE - MENU
+
+    This file, in conjunction with its `.conf` file, allows us to overwrite
+    Squarespace's own system block template.
+
+    OBJECT MODEL
+    =>
+
+        blockId:                string
+        currencySymbol:         string
+        menuStyle:              string
+        menus:                  array
+        randUID:                string
+
+###############################################################################}
+
+
+
+
+
+
+{###############################################################################
+
+<script>
+    console.log( "menu", {@|json-pretty} );
+</script>
+
+###############################################################################}

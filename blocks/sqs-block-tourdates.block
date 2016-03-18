@@ -1,0 +1,24 @@
+{###############################################################################
+
+    SQUARESPACE SYSTEM BLOCK TEMPLATE - BANDSINTOWN
+
+    This file, in conjunction with its `.conf` file, allows us to overwrite
+    Squarespace's own system block template.
+
+    OBJECT MODEL
+    =>
+
+###############################################################################}
+
+
+
+
+
+
+{###############################################################################
+
+<script>
+    console.log( "tourdates", {@|json-pretty} );
+</script>
+
+###############################################################################}

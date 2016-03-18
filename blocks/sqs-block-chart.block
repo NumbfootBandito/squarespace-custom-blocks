@@ -1,0 +1,30 @@
+{###############################################################################
+
+    SQUARESPACE SYSTEM BLOCK TEMPLATE - CHART
+
+    This file, in conjunction with its `.conf` file, allows us to overwrite
+    Squarespace's own system block template.
+
+    OBJECT MODEL
+    =>
+
+        BAR: 1009, LINE: 1010, PIE: 1011
+        caption:            string
+        chartType:          number
+        dataTable:          object
+        flip:               boolean
+        legend:             string
+        palette:            string
+        title:              string
+        type:               number
+
+###############################################################################}
+
+
+{###############################################################################
+
+<script>
+    console.log( "chart", {@|json-pretty} );
+</script>
+
+###############################################################################}

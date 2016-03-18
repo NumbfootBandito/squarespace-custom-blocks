@@ -1,0 +1,28 @@
+{###############################################################################
+
+    SQUARESPACE SYSTEM BLOCK TEMPLATE - TAG CLOUD
+
+    This file, in conjunction with its `.conf` file, allows us to overwrite
+    Squarespace's own system block template.
+
+    OBJECT MODEL
+    =>
+
+        collection:     object
+        sortby:         string
+        type:           string
+
+###############################################################################}
+
+
+
+
+
+
+{###############################################################################
+
+<script>
+    console.log( "tagcloud", {@|json-pretty} );
+</script>
+
+###############################################################################}

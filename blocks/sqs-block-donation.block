@@ -1,0 +1,39 @@
+{###############################################################################
+
+    SQUARESPACE SYSTEM BLOCK TEMPLATE - DONATION
+
+    This file, in conjunction with its `.conf` file, allows us to overwrite
+    Squarespace's own system block template.
+
+    OBJECT MODEL
+    =>
+
+        donatePage:                 object
+        buttonAlignment:            string
+        buttonLabel:                string
+        customForm:                 object
+        customFormId:               string
+        description:                string
+        id:                         string
+        queuedSubmitEnabled:        boolean
+        suggestedContributions:     array
+        title:                      string
+        websiteId:                  string
+        showTitle:                  boolean
+        type:                       number
+
+###############################################################################}
+
+
+
+<div class="sqs-donate-button"></div>
+
+
+
+{###############################################################################
+
+<script>
+    console.log( "donation", {@|json-pretty} );
+</script>
+
+###############################################################################}

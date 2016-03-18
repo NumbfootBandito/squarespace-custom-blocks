@@ -1,0 +1,38 @@
+{###############################################################################
+
+    SQUARESPACE SYSTEM BLOCK TEMPLATE - ARCHIVE
+
+    This file, in conjunction with its `.conf` file, allows us to overwrite
+    Squarespace's own system block template.
+
+    OBJECT MODEL
+    =>
+
+        INDEX, LIST, DROPDOWN
+        blockId:                    string
+        collectionUrlId:            string
+        dropdownTitle:              string
+        groupBy:                    string
+        groups:                     object
+        hasNoCollection:            boolean
+        isDeletedCollection:        boolean
+        layout:                     string
+        multiColumns:               boolean
+        showCount:                  boolean
+        showDate:                   boolean
+        type:                       number
+
+###############################################################################}
+
+
+
+
+
+
+{###############################################################################
+
+<script>
+    console.log( "archive", {@|json-pretty} );
+</script>
+
+###############################################################################}

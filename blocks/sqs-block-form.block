@@ -1,0 +1,43 @@
+{###############################################################################
+
+    SQUARESPACE SYSTEM BLOCK TEMPLATE - FORM
+
+    This file, in conjunction with its `.conf` file, allows us to overwrite
+    Squarespace's own system block template.
+
+    OBJECT MODEL
+    Form blocks are a bit different than the rest in that the default
+    behavior relies on a data being stored. I've found this block a little
+    difficult to work with.
+    =>
+
+        buttonAlignment:                string
+        collection:                     object
+        collectionId:                   string
+        formFields:                     array
+        formId:                         string
+        formName:                       string
+        formPreSubmitTopics:            null
+        formSubmissionHTML:             string
+        formSubmissionMessage:          object
+        formSubmitButtonText:           string
+        formUsePreSubmit:               boolean
+        lightboxHandleText:             string
+        secureUrl:                      string
+        showTitle:                      boolean
+        useLightbox:                    boolean
+
+###############################################################################}
+
+
+
+
+
+
+{###############################################################################
+
+<script>
+    console.log( "form", {@|json-pretty} );
+</script>
+
+###############################################################################}
