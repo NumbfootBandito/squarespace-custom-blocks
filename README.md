@@ -25,7 +25,7 @@ Like I said above we can't create our own blocks, but we can overwrite some. I d
 
 ### Basic
 * *Text - Locked*
-* *Markdown* - Locked*
+* *Markdown - Locked*
 * Quote
 * Image
 * *Video - Locked*
@@ -33,16 +33,16 @@ Like I said above we can't create our own blocks, but we can overwrite some. I d
 * *Embed - Locked*
 
 ### Gallery
-* Slideshow
-* Carousel
-* Grid
-* Stack
+* Slideshow (consolidated into Gallery template)
+* Carousel (consolidated into Gallery template)
+* Grid (consolidated into Gallery template)
+* Stack (consolidated into Gallery template)
 
 ### Summary
-* Wall
-* Carousel
-* List
-* Grid
+* Wall (consolidated into Summary template)
+* Carousel (consolidated into Summary template)
+* List (consolidated into Summary template)
+* Grid (consolidated into Summary template)
 
 ### More
 * *Spacer - Locked*
@@ -69,9 +69,9 @@ Like I said above we can't create our own blocks, but we can overwrite some. I d
 * Donation
 
 ### Charts
-* Bar Chart
-* Line Chart
-* Pie Chart
+* Bar Chart (consolidated into Chart template)
+* Line Chart (consolidated into Chart template)
+* Pie Chart (consolidated into Chart template)
 
 ### Social Blocks
 * *Twitter - Locked*
@@ -92,7 +92,7 @@ The easiest way to install a template into your Squarespace Developer mode templ
 
 
 ### How It Works
-The way Squarespace handles these custom block templates is quite simple. Like [custom collections](http://developers.squarespace.com/collections/), you'll need to create a configuration file, and then a template. In my testing, the file name of the template is irrelevant, but the block name specified in the configuration is important. So the two files you'll need are:
+The way Squarespace handles these custom block templates is quite simple. Like [custom collections](http://developers.squarespace.com/collections/), you'll need to create a configuration file and a template file. In my testing, the file name of the template is irrelevant, but the block name specified in the configuration is important. So the two files you'll need are:
 
 * yourfilename.block.conf
 * yourfilename.block
@@ -107,7 +107,7 @@ Your configuration file, `yourfilename.block.conf`, is going to look something l
 }
 ```
 
-The `type` is the name of the Squarespace system block you are overwriting. There's not an easy way to know what the Squarespace system block types are. The way you can find out a block type name is by adding that Squarespace block to your template, then using your browser DevTools to examine the markup on the `.sqs-block` HTML class. Typically you'll something like `.sqs-image-block` as one of the classes, thus allowing you to take a guess that the block type is `image`. The good news is we'll keep a reference list in this repo so you don't have to figure it out yourself. :)
+The `type` is the name of the Squarespace system block you are overwriting. There's not an easy way to know what the Squarespace system block types are. The way you can find out a block type name is by adding that Squarespace block to your template, then using your browser DevTools to examine the markup on the `.sqs-block` HTML class. Typically you'll see something like `.sqs-image-block` as one of the classes, thus allowing you to take a guess that the block type is `image`. The good news is we'll keep a reference list in this repo so you don't have to figure it out yourself. :)
 
 #### The template
 
